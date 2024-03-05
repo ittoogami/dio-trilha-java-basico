@@ -11,21 +11,20 @@ public class SmartTv {
         ligada = false;
     }
 
-    public void aumentarVolume(){
+    public void aumentarVolume() {
         volume++;
     }
-    public void diminuirVolume(){
+
+    public void diminuirVolume() {
         volume--;
     }
 
-    public void mudarCanal(int canal){
-        if(canal == 0){
+    public void mudarCanal(int canal) {
+        if (canal == 0) {
             canal++;
-        }else{
+        } else {
             this.canal = canal;
         }
     }
-
-
 
 }
