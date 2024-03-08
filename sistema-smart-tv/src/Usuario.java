@@ -9,7 +9,7 @@ public class Usuario {
 
         smartTv.ligar();
 
-        System.out.println("Novo Statuse " + smartTv.ligada);
+        System.out.println("Novo Status " + smartTv.ligada);
 
     }
 }
