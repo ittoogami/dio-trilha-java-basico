@@ -9,7 +9,7 @@ public class AboutMe {
 
             Scanner s = new Scanner(System.in).useLocale(Locale.US);
 
-            System.out.print("Digite seu nome: ");
+            System.out.print("Digite seu nome:  ");
             String nome = s.next();
 
             System.out.print("Digite seu sobrenome: ");
